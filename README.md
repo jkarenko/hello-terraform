@@ -2,7 +2,7 @@
 
 A Go web service running on Google Cloud Run, deployed and managed with Terraform. This project demonstrates infrastructure as code principles with a basic web application.
 
-This is a simpler version of my [AWS CDK project](https://github.com/jkarenko/hello-cdk) that manages the infrastructure for the same Go service. It can be used as a jumping off point for projects in the same vein of App -> Docker -> IaC -> Cloud.
+This is a simpler version of my [hello-cdk](https://github.com/jkarenko/hello-cdk) project that manages the infrastructure for the same Go service on AWS Fargate. It can be used as a jumping off point for projects in the same vein of App -> Docker -> IaC -> Cloud.
 
 There's a number of currently undocumented steps for the gcloud CLI that I've done to get this working. I'll document them in the future.
 
